@@ -11,9 +11,9 @@ This project was built for the Security and System challenge.
 
 ## Technologies
 
--ReactJs
--NextJs
--Redux
+- ReactJs
+- NextJs
+- Redux
 
 ## Deployment
 
