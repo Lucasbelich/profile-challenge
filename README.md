@@ -6,6 +6,7 @@ This project was built for the Security and System challenge.
 
 - Technologies
 - Deployment
+- Testing
 - Author
 - License
 
@@ -24,6 +25,13 @@ You should already have node.js and npm installed and then use:
 - cd profile-challenge-master/
 - npm i
 - npm run dev
+
+## Testing
+
+To run the tests, you must first have the previous step completed
+and run in the terminal:
+
+- npm test
 
 ## Author
 
