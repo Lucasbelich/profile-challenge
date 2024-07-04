@@ -21,7 +21,7 @@ To implement this project, you need to download the zip file
 and run it locally in your browser
 You should already have node.js and npm installed and then use:
 
-- cd profile-challenge/
+- cd profile-challenge-master/
 - npm i
 - npm run dev
 
