@@ -1,0 +1,26 @@
+.profile__aboutContainer {
+  transform: translateY(-173px);
+  max-width: 1064px;
+  width: 100%;
+  background: white;
+  border-radius: 24px;
+  display: flex;
+  padding: 16px;
+  flex-direction: column;
+  gap: 12px;
+  @media (max-width: 834px) {
+    transform: translateY(-76px);
+  }
+}
+
+.profile__aboutContainer > p:nth-child(1) {
+  color: #393939;
+  font-size: 18px;
+  font-weight: 600;
+}
+.profile__aboutContainer > p:nth-child(2) {
+  color: #222;
+  font-size: 14px;
+  font-weight: 500;
+  white-space: pre-line;
+}

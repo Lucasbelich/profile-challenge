@@ -1,0 +1,45 @@
+.profile__interestContainer {
+  display: flex;
+  flex-direction: column;
+  max-width: 1064px;
+  width: 100%;
+}
+.profile_interestTab {
+  display: flex;
+  gap: 4px;
+}
+.profile__interestActiveTab {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  padding: 12px 24px;
+  background: white;
+  border-radius: 12px 12px 0px 0px;
+}
+
+.profile_interestTitle {
+  color: #222;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.profile_interestList {
+  display: flex;
+  flex-direction: column;
+  background: white;
+  padding: 12px;
+  border-radius: 0px 24px 24px 24px;
+  align-items: center;
+  gap: 12px;
+}
+.profile_interestListItem {
+  display: flex;
+  width: 100%;
+  padding: 8px;
+  align-items: center;
+  gap: 8px;
+  background: #eaedf2;
+  border-radius: 12px;
+  list-style: none;
+}

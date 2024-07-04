@@ -1,0 +1,19 @@
+.profile__container {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: center;
+  padding: 32px;
+}
+.profile__interestContactContainer{
+  display: flex;
+  max-width: 1064px;
+  width: 100%;
+  gap: 24px;
+  
+  transform: translateY(-152px);
+  @media (max-width: 834px) {
+    flex-direction: column;
+    transform: translateY(-52px);
+  }
+}
